@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+ruby '2.2.2'
+
+gem 'unicorn'
+gem 'capistrano-rails', group: :development
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
